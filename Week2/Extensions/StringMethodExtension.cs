@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Week2.Extensions
 {
-    public static class StringMethodExtension
+    public static class StringExtensionMethods
     {
        /// <summary>
        /// This function takes validator objects to check if the string is valid.
