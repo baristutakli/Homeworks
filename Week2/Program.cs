@@ -9,8 +9,8 @@ namespace Week2
     {
         static void Main(string[] args)
         {
-
-            string email = "asdasdfsfgsd1";
+            
+            string email = "asdasdfsAfAaaaassgsd1";
             Console.WriteLine(email.MultipleValidator(new Validate[] { new UpperCaseValidator(), new LowerCaseValidator(), new LengthValidator() }));
         }
     }

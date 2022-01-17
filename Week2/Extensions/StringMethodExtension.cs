@@ -21,6 +21,10 @@ namespace Week2.Extensions
             foreach (var item in args)
             {
                 isValid = item.IsValid(param);
+                if (!isValid)
+                {
+                    break;
+                }
             }
             return isValid;
         }
